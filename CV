@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+
+    <style>
+
+        table{
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        th, 
+        td {
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+<header>
+    <nav>
+        <ul>
+            <li> <a href="#intro">Intro</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <main>
+
+        <section id="intro" style="margin-top: 15rem">
+
+      <img src="practice/assets/photo1.jpeg" alt="">
+
+      <h1>Iryna Petryshyn</h1> 
+
+      <small>16.07.2019</small>
+
+      <i>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam dicta accusamus necessitatibus consequatur eos repellendus optio tempore dolore officia, minima sed dolor corporis iure facilis impedit doloremque itaque tenetur.</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, provident ratione eius tenetur odio numquam, rerum libero quidem, expedita eum harum impedit porro aperiam placeat at delectus dolores magni praesentium!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat sit libero recusandae, molestiae provident voluptates est nam voluptatum nisi quae itaque sapiente odit laudantium saepe asperiores beatae rem debitis.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sunt officiis facilis et veniam ullam sapiente corrupti aspernatur, ipsam, nobis aperiam tempore eius amet distinctio rem voluptas perspiciatis impedit odio.</p>    
+     </i>
+</section>
+
+<section id="skills" style="margin-top: 15rem">
+
+<h2>
+    <i> Skills </i>
+</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+</section>
+
+<!-- Hobbies -->
+
+<section id="hobbies" style="margin-top: 15rem">
+
+<h2> 
+    <i> Hobbies </i>
+</h2>
+
+<ol>
+    <li>Movie</li>
+    <li>Music</li>
+    <li>Travel</li>
+</ol>
+
+</section>
+
+<!-- #Hobbies -->
+
+<section id="education" style="margin-top: 15rem">
+
+<h2>
+    <i>Education</i>
+</h2>
+
+    <ul>
+        <li>School #77 (2003-2013)</li>
+        <li>School #51 (2013-2015)</li>
+        <li>Colledge of Computer Science (2015-2018)</li>
+        <li>QA School (May,2018-September,2018)</li>
+        <li>OctenWeb (July,2019-now)</li>
+    </ul>
+
+</section>
+
+<table style="border: 1px solid #000; padding: 1rem">
+
+    <thead>
+
+        <tr>
+            <th>Nun</th>
+            <th>Skill</th>
+            <th>Experiense</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <th>1</th>
+            <th>CSS</th>
+            <th>20%</th>
+        </tr>
+
+        <tr>
+             <th>2</th>
+            <th>JS</th>
+            <th>10%</th>
+        </tr>
+
+    </tbody>
+</table>
+
+</main>
+    
+</body>
