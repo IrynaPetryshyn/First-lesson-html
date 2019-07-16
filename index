@@ -55,8 +55,12 @@
     </h2>
 
     <img src="Images/cat.jpg" alt="Kitty" title="Cat">
-
     
+    <h2>
+        Link
+    </h2>
+
+    <a href="http://catcafe.com.ua/">Click me</a>
     
 </body>
 </html>
